@@ -22,7 +22,7 @@ int main(int argc, char** argv) {
 	//method 2: using pointer arithmetic 
 
 	for (int i=0; i<argc; i++) {
-		for (int j=0; j<strlen(str); j++) {
+		for (int j=0; j<strlen(argv[i]); j++) {
 			printf("%c\n", *(*(argv+i) + j));
 		}
 		printf("\n");
