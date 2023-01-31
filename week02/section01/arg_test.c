@@ -22,7 +22,6 @@ int main(int argc, char** argv) {
 	//method 2: using pointer arithmetic 
 
 	for (int i=0; i<argc; i++) {
-		char* str = argv[i];
 		for (int j=0; j<strlen(str); j++) {
 			printf("%c\n", *(*(argv+i) + j));
 		}
