@@ -39,7 +39,7 @@ int main(int argc, char *argv[]) {
     printf("argv[1]: %s\n", argv[1]);
     printf("str: %s\n", str);
 
-    /* method 2: count the number of 
+    /* method 3: count the number of 
      * characters before the terminating character 
      * treating str as a pointer to each character
      */
