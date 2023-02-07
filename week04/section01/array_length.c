@@ -18,7 +18,7 @@ int main(int argc, char* argv[]) {
 
 	/* in-class exercise */
 	char* passwords[] = {"1234","passwords"};
-
+	printf("%lu\n",sizeof(passwords)/sizeof(passwords[0]));
 	/* print the length of passwords */
 
 	return 0;
