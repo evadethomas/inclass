@@ -6,7 +6,7 @@
 
 [Project01](https://cs221.cs.usfca.edu/assignments/project01.html) is due on 2023-02-14. 
 
-1 project is worth 10% of the grade. 
+<font color="red">1 project is worth 10% of the grade.</font>
 
 ### Topics
 - how to calculate [the length of an array of any type](https://github.com/cs221-s23/inclass/blob/main/week03/section01/array_length.c)
