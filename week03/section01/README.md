@@ -31,5 +31,5 @@ Late days:
 1. [sprintf](https://github.com/cs221-s23/inclass/blob/main/week03/section02/sprintf.c)
 2. [str vs. strn](https://github.com/cs221-s23/inclass/blob/main/week03/section02/strcat.c)
 3. [C functions](https://cs221.cs.usfca.edu/slides/functions.html#/)
-4. [Memory allocation]
+4. [Memory allocation](https://cs221.cs.usfca.edu/slides/dynamicmemory.html)
 
