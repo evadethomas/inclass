@@ -5,6 +5,7 @@
 ### Logistics
 
 [Project01](https://cs221.cs.usfca.edu/assignments/project01.html) is due on 2023-02-14. 
+
 1 project is worth 10% of the grade. 
 
 ### Topics
