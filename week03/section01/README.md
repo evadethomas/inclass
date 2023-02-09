@@ -32,4 +32,5 @@ Late days:
 2. [str vs. strn](https://github.com/cs221-s23/inclass/blob/main/week03/section02/strcat.c)
 3. [C functions](https://cs221.cs.usfca.edu/slides/functions.html#/)
 4. [Memory allocation](https://cs221.cs.usfca.edu/slides/dynamicmemory.html)
+- malloc practice [template](https://github.com/cs221-s23/inclass/blob/main/week03/section01/mallocpractice.c)
 
