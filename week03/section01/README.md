@@ -1,8 +1,8 @@
-#H1 CS 221-01 Week03 
+# CS 221-01 Week03 
 
-#H2 2023-02-09 
+## 2023-02-09 
 
-#H3 Logistics
+### Logistics
 
 Common mistakes in lab02 submission:
 1. Not including Makefile 
