@@ -6,6 +6,9 @@
 
 [Project01](https://cs221.cs.usfca.edu/assignments/project01.html) is due on 2023-02-14. You may use up to 2 late days. (No submissions are accepted after 2023-02-16.)
 
+<span style="color:red">1 project is worth 10% of the grade.</span>
+
+
 [Lab03](https://cs221.cs.usfca.edu/assignments/project01.html) is due on 2023-02-21. You may use up to 2 late days. (No submissions are accepted after 2023-02-23.)
 
 Make sure to create a Makefile, and test the Makefile before submission.
@@ -14,7 +17,6 @@ make clean
 make
 ```
 
-<font color="red">1 project is worth 10% of the grade.</font>
 
 ### Topics
 - how to use [struct](https://github.com/cs221-s23/inclass/blob/main/week03/section01/structdemo.c) and [typedef struct](https://github.com/cs221-s23/inclass/blob/main/week03/section01/typedefdemo.c) in C
