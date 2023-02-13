@@ -4,14 +4,14 @@
 
 ### Logistics
 
-[Project01](https://cs221.cs.usfca.edu/assignments/project01.html) is due on 2023-02-14. You may use up to 2 late days. (No submissions are accepted after 2023-02-16.)
+[Project01](https://cs221.cs.usfca.edu/assignments/project01.html) is due on 2023-02-14. You may use up to 2 late days. (No submissions are accepted after midnight 2023-02-16.)
 
-<span style="color:red">1 project is worth **10% of the grade**.</span>
+1 project is worth *10% of the grade*.
 
-
-[Lab03](https://cs221.cs.usfca.edu/assignments/project01.html) is due on 2023-02-21. You may use up to 2 late days. (No submissions are accepted after 2023-02-23.)
+[Lab03](https://cs221.cs.usfca.edu/assignments/project01.html) is due on 2023-02-21. You may use up to 2 late days. (No submissions are accepted after midnight  2023-02-23.)
 
 Make sure to create a Makefile, and test the Makefile before submission.
+
 ```sh
 make clean
 make
