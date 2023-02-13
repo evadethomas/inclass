@@ -6,7 +6,7 @@
 
 [Project01](https://cs221.cs.usfca.edu/assignments/project01.html) is due on 2023-02-14. You may use up to 2 late days. (No submissions are accepted after 2023-02-16.)
 
-<span style="color:red">1 project is worth 10% of the grade.</span>
+<span style="color:red">1 project is worth *10% of the grade*.</span>
 
 
 [Lab03](https://cs221.cs.usfca.edu/assignments/project01.html) is due on 2023-02-21. You may use up to 2 late days. (No submissions are accepted after 2023-02-23.)
