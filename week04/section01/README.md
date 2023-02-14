@@ -19,5 +19,5 @@ make
 
 
 ### Topics
-- how to use [struct](https://github.com/cs221-s23/inclass/blob/main/week03/section01/structdemo.c) and [typedef struct](https://github.com/cs221-s23/inclass/blob/main/week03/section01/typedefdemo.c) in C
-- how to [open/close/read/write a file](https://github.com/cs221-s23/inclass/blob/main/week04/section01/filedemo.c)
+- how to use [struct](https://github.com/cs221-s23/inclass/blob/main/week03/section01/structdemo.c) and [typedef struct](https://github.com/cs221-s23/inclass/blob/main/week03/section01/typedefdemo.c) in C [slides](https://cs221.cs.usfca.edu/slides/struct.html#/)
+- how to [open/close/read/write a file](https://github.com/cs221-s23/inclass/blob/main/week04/section01/filedemo.c) [slides](https://cs221.cs.usfca.edu/slides/fileio.html#/)
