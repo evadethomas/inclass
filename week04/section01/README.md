@@ -28,6 +28,19 @@ make
 - `char* password = "Pa$$word!";` is immutable
 - `char password[10]` is mutable and can contain up to 9 chars 
 
+### getting a mutable string
+```c
+char* pwd = "password";
+//1) declaration
+char* buf;
+//2) allocation
+buf = malloc((sizeof(pwd)+1)*sizeof(char));
+//3) initialization
+memset(buf, 0, sizeof(buf));
+//4) copy
+strncpy(buf, pwd, sizeof(pwd));
+```
+
 ### pass by value vs. pass by reference
 - in Java, primitive types are pass by value and reference types are pass by reference
 - in C, scalar type arguments are pass by value and pointer type argumentss are pass by reference
