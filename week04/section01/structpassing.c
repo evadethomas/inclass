@@ -11,17 +11,16 @@ void y_flip(struct point p) {
 
 void ptr_y_flip(struct point *p) {
     p->y = -p->y;
-    printf("in flip: %f, %f\n", p->x, p->y);
 }
 
 int main(int argc, char* argv[]) {
     struct point p;
     p.x = 1.0;
     p.y = 0.1;
-    printf("before flip: %.0f, %.0f\n", p.x, p.y);
+    printf("before flip: %.1f, %.1f\n", p.x, p.y);
     y_flip(p);
-    printf("after flip: %.0f, %.0f\n", p.x, p.y);
+    printf("after pass-by-value: %.1f, %.1f\n", p.x, p.y);
     ptr_y_flip(&p);
-    printf("after flip: %.0f, %.0f\n", p.x, p.y);
+    printf("after pass-by-reference  flip: %.1f, %.1f\n", p.x, p.y);
 }
 
