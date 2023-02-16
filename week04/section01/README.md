@@ -36,11 +36,11 @@ char* pwd = "password";
 //1) declaration
 char* buf;
 //2) allocation
-buf = malloc((sizeof(pwd)+1)*sizeof(char));
+buf = malloc((strlen(pwd)+1)*sizeof(char));
 //3) initialization
-memset(buf, 0, sizeof(buf));
+memset(buf, 0, strlen(buf));
 //4) copy
-strncpy(buf, pwd, sizeof(pwd));
+strncpy(buf, pwd, strlen(pwd));
 ```
 - [example code](https://github.com/cs221-s23/inclass/blob/main/week04/section01/ptrdemo.c)
 ### pass by value vs. pass by reference
