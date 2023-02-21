@@ -24,6 +24,6 @@ make
 - [Makefile](https://cs221.cs.usfca.edu/slides/make.html#/) revisted: compiling, linking, running
 - [autograder](https://cs221.cs.usfca.edu/slides/autograder.html#/): why does autograder score on my laptop is different from Canvas score?
 - how to use [struct](https://github.com/cs221-s23/inclass/blob/main/week04/section01/structdemo.c) to create a node for a [linked list](https://github.com/cs221-s23/inclass/blob/main/week05/section01/linked.c) in C
-- how to do insertion sort using `strcmp`
+- how to do [insertion sort](https://github.com/cs221-s23/inclass/blob/main/week05/section01/insertionsortdemo.c) using `strcmp`
 
 
