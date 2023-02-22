@@ -10,7 +10,9 @@ How to get help? [CampusWire](https://campuswire.com/c/G72F8E8DD/feed/97)
 
 1 project is worth *10% of the grade*.
 
-[Lab03](https://cs221.cs.usfca.edu/assignments/lab03.html) is due on 2023-02-21. You may use up to 2 late days. (No submissions are accepted after midnight  2023-02-23.)
+[Lab03](https://cs221.cs.usfca.edu/assignments/lab03.html) was due on 2023-02-21. You may use up to 2 late days. (No submissions are accepted after midnight  2023-02-23.)
+
+1 lab is worth *1.25% of the grade*.
 
 Make sure to create a [Makefile](https://cs221.cs.usfca.edu/slides/make.html#/), and test the Makefile before submission.
 
