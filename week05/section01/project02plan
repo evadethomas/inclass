@@ -4,6 +4,7 @@
 		1.1.2. create the (pwd, hash) pair in a node 
 		1.1.3. insert the node in the right place
 			1.1.3.1. if "-v" is set then print the change in the linked list
+			e.g. printf("%s %.5s\n", node.password, node.hash);
 		1.1.4. create the (leet, hash) pair in a node 
 		1.1.5. insert the node in the right place
 			1.1.5.1. if "-v" is set then print the change in the linked list
@@ -14,6 +15,11 @@
 
 	1.3. write the linked list's content to the dictionary file
 		1.3.1. open the dictionary file
-		1.3.2. write the number of pairs(nodes) to the files
+		1.3.2. write the number of pairs(nodes) to the file
+		e.g.char* buf = malloc([find the right size]);
+		    strncpy(buf, node.password, [find the right size]);
+		    strcat(buf, ", "); //modify to use strncat
+		    strcat(buf, node.hash); //modify to use strncat
+			fwrite(&buf, "%s\n", 1, fs);
  		1.3.3. for every node in the linked list
 			1.3.3.1. write hash, pwd to the file
