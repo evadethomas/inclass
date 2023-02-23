@@ -1,0 +1,19 @@
+1. build a dictionary
+	1.1 read the password file 
+		1.1.1. read one line of password
+		1.1.2. create the (pwd, hash) pair in a node 
+		1.1.3. insert the node in the right place
+			1.1.3.1. if "-v" is set then print the change in the linked list
+		1.1.4. create the (leet, hash) pair in a node 
+		1.1.5. insert the node in the right place
+			1.1.5.1. if "-v" is set then print the change in the linked list
+		1.1.6. create the (plus1, hash) pair in a node 
+		1.1.7. insert the node in the right place
+			1.1.7.1. if "-v" is set then print the change in the linked list
+	1.2.close the password file
+
+	1.3. write the linked list's content to the dictionary file
+		1.3.1. open the dictionary file
+		1.3.2. write the number of pairs(nodes) to the files
+ 		1.3.3. for every node in the linked list
+			1.3.3.1. write hash, pwd to the file
