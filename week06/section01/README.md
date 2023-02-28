@@ -25,10 +25,10 @@ make
 - `fscanf` for project02
 
 	- `fgets` 
-		- gets chars til '\n' or EOF but includes the '\n'
-		- can
-`fread` reads as many bytes as you specify
-`fscanf` can use "%ms" to `malloc` and read at the same time
+		- gets chars til `\n` or EOF but includes the `\n`
+		- can replace `\n` with `\0`
+        - `fread` reads as many bytes as you specify
+        - `fscanf` can use "%ms" to `malloc` and read at the same time
 
 - `fprintf` for project02
 
