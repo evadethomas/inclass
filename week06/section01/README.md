@@ -22,15 +22,18 @@ make
 ```
 
 ### Topics
-- `fscanf` for project02
+- how to read one password from file for project02 ([fileread.c](https://github.com/cs221-s23/inclass/blob/main/week06/section01/fileread.c))
 
 	- `fgets` 
 		- gets chars til `\n` or EOF but includes the `\n`
 		- can replace `\n` with `\0`
         - `fread` reads as many bytes as you specify
-        - `fscanf` can use "%ms" to `malloc` and read at the same time
+        - `fscanf` can use "%s" to read one password without `\0`
 
-- `fprintf` for project02
+- how to write to file for project02 ([filewrite.c](https://github.com/cs221-s23/inclass/blob/main/week06/section01/filewrite.c))
+
+	- `fwrite` writes as many bytes as you specify
+	- `fprintf` writes the format specify
 
 - [Makefile](https://cs221.cs.usfca.edu/slides/make.html#/) revisted: compiling, linking, running
 - [test files](https://github.com/cs221-s23/lab04-given/blob/main/test.c): partial credits available starting lab04
