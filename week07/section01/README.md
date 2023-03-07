@@ -7,7 +7,7 @@
 Project02 score posted. Resubmission for autograded part is due on 2023-03-14. No late days accepted. See the comments in Canvas for Defensive Coding and Style. 
 	
 #### Common mistakes
-- not checking malloc error
+- not checking malloc error. [print stack](https://github.com/cs221-s23/inclass/blob/main/week07/section01/malloctest.c) or do below.
 ```c
 struct entry* node = malloc(sizeof(struct entry));
 if (node==NULL) {
@@ -15,7 +15,6 @@ if (node==NULL) {
 	exit(-1);
 }
 ```
-
 - unbounded memory copy
 ```c
 strcpy(dst, src);
