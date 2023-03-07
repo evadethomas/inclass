@@ -56,6 +56,11 @@ char pwd[MAX_PASSWORD+1];
 
 - well designed functions: test-driven development
 
+#### Midterm on 3/23
+
+Midterm is in class for the whole class duration. We will have practice questions after covering recursion and minimax.
+
+#### Assignments
 [Project03](https://cs221.cs.usfca.edu/assignments/project03.html) is due on 2023-03-28. You may use up to 2 late days. (No submissions are accepted after midnight 2023-03-30.)
 
 1 project is worth *10% of the grade*.
@@ -64,7 +69,7 @@ char pwd[MAX_PASSWORD+1];
 
 1 lab is worth *1.25% of the grade*.
 
-Make sure to create a [Makefile](https://cs221.cs.usfca.edu/slides/make.html#/), and test the Makefile before submission.
+Make sure to create a [Makefile](https://cs221.cs.usfca.edu/slides/make.html#/), and test the Makefile before submission. Your Makefile should compile and link to create an executable.
 
 ```sh
 make clean
@@ -72,6 +77,6 @@ make
 ```
 
 ### Topics
-- [Makefile](https://cs221.cs.usfca.edu/slides/make.html#/) revisted: compiling, linking, running
-
 - [test files](https://github.com/cs221-s23/lab04-given/blob/main/test.c): partial credits available starting lab04
+
+- recursion
