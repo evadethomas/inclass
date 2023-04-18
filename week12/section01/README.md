@@ -17,3 +17,4 @@
 
 1 lab is worth *1.25% of the grade*.
 
+Here is a reference for [Socket programming in C](https://learning.oreilly.com/library/view/practical-system-programming/9781484263211/html/497677_1_En_8_Chapter.xhtml)
