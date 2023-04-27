@@ -1,3 +1,7 @@
+/* © Sri Manikanta Palakollu 2021
+ *S. M. PalakolluPractical System Programming with Chttps://doi.org/10.1007/978-1-4842-6321-1_8
+ */
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<unistd.h>
@@ -18,12 +22,6 @@ char message[MESSAGE_LENGTH];
 
 int main(){
    // Creating the Socket
-    
-    int en = 1;
-    if (setsockopt(fd, SOL_SOCKET, SO_REUSEADDR, &en, sizeof(int)) == -1) {
-        perror("Set socket option failed.");
-        exit(1);
-    }
    socket_file_descriptor = socket(AF_INET, SOCK_STREAM, 0);
    if(socket_file_descriptor == -1){
        printf("Socket creation failed.!\n");
